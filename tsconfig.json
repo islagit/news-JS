@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "strict": false,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "noImplicitAny": true,
+        "lib": ["es6", "dom"],
+        "noEmitOnError": false,
+        "allowJs": true
+    },
+    "include": ["src/**/*.ts", "src/index.js", "src/components/app/app.ts", "src/components/controller/controller.js", "src/components/controller/appLoader.js", "src/components/controller/loader.js", "src/components/view/appView.js", "src/components/view/sources/sources.ts", "src/components/view/news/news.ts"],
+    "exclude": ["node_modules"]
+}
